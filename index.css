@@ -1,0 +1,104 @@
+html {
+    background: linear-gradient(180deg, rgb(198, 209, 41), rgb(66, 59, 46));
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: .15vw;
+    margin-bottom: 50px;
+    height: 175px;
+}
+
+
+#titleBorderLeft, #titleBorderRight {
+    box-sizing: border-box;
+    height: 200px;
+    transform: scale(1.06);
+    filter: hue-rotate(0deg) saturate(0);
+}
+
+#title {
+    position: relative;
+    text-align: center;
+    font-family:'MS Gothic', 'Franklin Gothic Medium', Arial, fantasy;
+    font-style: oblique;
+    text-shadow: 1.5px 1.5px #eeebeb;
+    font-size: 3.5vw;
+    padding-top: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 0.02vw;
+    text-transform: uppercase;
+    color:rgb(34, 34, 33);
+    opacity: .8;
+}
+
+#titleBorderLeft {
+    transform: scaleX(-1);
+}
+
+
+.recipeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 10px;
+    padding: 5px;
+}
+
+
+.recipeItem, .recipeImage, .frame {
+    height: auto;
+    display: flex;
+    width: 250px;
+    position: relative;
+    align-items: inherit;
+    object-fit: cover;
+}
+
+
+.link {
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    position: absolute;
+    text-align: center;
+    font-size: 2.25em ;
+    font-weight: 500;
+    color:rgb(198, 209, 41);
+    top: 400px;
+    left: 20px;
+}
+
+
+.description  {
+    position: absolute;
+    display:grid;
+    justify-content: space-evenly;
+    font-size: medium;
+    display: flex;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 200;
+    color:rgb(198, 209, 41);
+}
+
+*/
+
+.frame {
+    position: absolute;
+    width: 325px;
+    display: block;
+    z-index: 2;
+}

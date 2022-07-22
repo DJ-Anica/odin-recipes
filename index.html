@@ -5,55 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Odin Recipes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
   </head>
 
   <body>
 	  <script src="index.js"></script>
 
-    <div id="header">
-      <h1 id="title">Odin Recipes</h1>
-    </div>
-    <div id="title-border-left">
-      <img  src="./recipe_images/norse_design_left.png">
-    </div>
-    <div id="title-border-right">
-      <img src="./recipe_images/norse_design_right.png">
-    </div>
-
-    <div id = "leftRecipe">
-      <img id = "leftRecipeImg" src = "https://therecipecritic.com/wp-content/uploads/2019/11/french_toast_recipe5-500x500.jpg">
-        <img id = "leftFrame" src = "./recipe_images/norse_frame_left.jpg">
-          <a id = "leftOverlay" href = "french_toast.html" target = "_blank">
-            <div id = "leftHoverTitle">French Toast</div>
-              <p id = "leftHoverDescription">Toast, with culture.</p>
-          </a>
-    </div>
-
-    <div id = "middleRecipe">
-      <img id = "middleRecipeImg" src = "https://californiaavocado.com/wp-content/uploads/2020/07/Guacamole-Autentico-1.jpeg">
-        <img id = "middleFrame" src = "./recipe_images/norse_frame_middle.jpg">
-          <a id = "middleOverlay" href = "guacamole.html" target = "_blank">
-            <div id = "middleHoverTitle">Guacamole</div>
-            <p id = "middleHoverDescription"><em>EL Jefe</em> of dips.</p>
-          </a>
-    </div>
-
-    <div id = "rightRecipe">
-      <img id = "rightRecipeImg" src = "https://www.twopeasandtheirpod.com/wp-content/uploads/2022/01/Pizza-Bagels-15.jpg">
+    <div class="headerContainer">
       
-        <img id = "rightFrame" src = "./recipe_images/norse_frame_right.jpg">
-            <a id = "righttOverlay" href = "pizza_bagels.html" target = "_blank">
-              <div id = "rightHoverTitle">Pizza Bagels</div>
-              <p id = "rightHoverDescription">Pizza, but on a bagel.</p>
-              </a>
+      <div class="headerItem" >
+        <img id="titleBorderLeft" src="./recipe_images/norse_design_right_removebg.png">
       </div>
-    
-    <ul>
-      <li><a href="french_toast.html">French Toast</a></li>
-        <li><a href="guacamole.html">Guacamole</a></li>
-        <li><a href="pizza_bagels.html">Pizza Bagels</a></li>
-    </ul>
+
+      <h1 class="headerItem" id="title">Odin Recipes</h1>
+
+      <div class="headerItem">
+        <img id="titleBorderRight" src="./recipe_images/norse_design_right_removebg.png">
+      </div>
+
+    </div>
+
+
+    <div class="recipeContainer">
+
+      <div class="recipeItem" id="leftRecipe">
+        <img class="recipeImage" id="leftRecipeImage" src="https://therecipecritic.com/wp-content/uploads/2019/11/french_toast_recipe5-500x500.jpg">
+          <!--<img class="frame" id = "leftFrame" src = "./recipe_images/norse_frame_left_removebg.png">-->
+            <a class="link" href="french_toast.html" target = "_blank">
+              <div class="subtitle" id="leftHoverTitle">French Toast</div>
+                <p class="description" id="leftHoverDescription">Toast with culture.</p>
+            </a>
+      </div>
+  
+      <div class="recipeItem" id="middleRecipe">
+        <img class="recipeImage" id="middleRecipeImage" src="https://californiaavocado.com/wp-content/uploads/2020/07/Guacamole-Autentico-1.jpeg">
+        <!--<img class="frame" id = "middleFrame" src = "./recipe_images/norse_frame_middle_removebg.png">-->
+            <a class="link" href="guacamole.html" target="_blank">
+              <div class="subtitle" id = "middleHoverTitle">Guacamole</div>
+              <p class="description" id = "middleHoverDescription">El Jefe of dips.</p>
+            </a>
+      </div>
+  
+      <div class="recipeItem" id="rightRecipe">
+        <img class="recipeImage" id="rightRecipeImage" src="https://www.twopeasandtheirpod.com/wp-content/uploads/2022/01/Pizza-Bagels-15.jpg">
+        <!--<img class="frame" id = "rightFrame" src = "./recipe_images/norse_frame_right_removebg.png">-->
+              <a class="link" href = "pizza_bagels.html" target="_blank">
+                <div class="subtitle" id = "rightHoverTitle">Pizza Bagels</div>
+                <p class="description" id = "rightHoverDescription">Pizza but on a bagel.</p>
+                </a>
+        </div>
+    </div>
     
 
   </body>
