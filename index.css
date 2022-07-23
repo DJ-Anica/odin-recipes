@@ -102,3 +102,102 @@ html {
     font-weight: 200;
     color:rgb(198, 209, 41);
 }
+
+
+    /* For mobile phones */
+
+@media only screen and (max-width: 760px) {
+    headerContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: .5px;
+        height: 15px;
+    }
+    
+    
+    #titleBorderLeft, #titleBorderRight {
+        box-sizing: border-box;
+        height: 50px;
+        transform: scale(1.06);
+    }
+    
+    #title {
+        position: relative;
+        text-align: center;
+        font-family:'MS Gothic', 'Franklin Gothic Medium', Arial, fantasy;
+        font-style: oblique;
+        text-shadow: 1.5px 1.5px #eeebeb;
+        font-size: 40px;
+        padding-top: 45px;
+        padding-left: 5px;
+        padding-right: 5px;
+        letter-spacing: 0.02vw;
+        text-transform: uppercase;
+        color:rgb(34, 34, 33);
+        opacity: .8;
+    }
+    
+    #titleBorderLeft {
+        transform: scaleX(-1);
+    }
+    
+    
+    .recipeContainer {
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 20px;
+        padding: 5px;
+    }
+    
+    
+    .recipeItem {
+        height: auto;
+        display: flex;
+        width: 100px;
+        position: relative;
+        align-items: inherit;
+    }
+    
+    .recipeImage {
+        display: flex;
+        width: 100px;
+        height: 175px;
+        object-fit: cover;
+    }
+        
+    
+    #leftRecipe, #middleRecipe, #rightRecipe {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    
+    
+    .link {
+        width: 100px;
+        font-size: large;
+        font-weight: 300;
+        position: absolute;
+        color:rgb(198, 209, 41);
+        top: 150px;
+        left: 20px;
+    }
+    
+    
+    .description  {
+        position: absolute;
+        display:grid;
+        justify-content: space-evenly;
+        font-size: medium;
+        display: flex;
+        text-align: center;
+        font-size: large;
+        font-weight: 200;
+        color:rgb(198, 209, 41);
+    }
+    }
