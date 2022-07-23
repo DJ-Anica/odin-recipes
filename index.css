@@ -106,7 +106,7 @@ html {
 
     /* For mobile phones */
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 770px) {
     headerContainer {
         display: flex;
         flex-direction: row;
@@ -120,7 +120,7 @@ html {
     
     #titleBorderLeft, #titleBorderRight {
         box-sizing: border-box;
-        height: 100px;
+        height: 150px;
         transform: scale(1.06);
     }
     
@@ -146,7 +146,7 @@ html {
     
     
     .recipeContainer {
-        display: flex;
+        display:block;
         flex-direction: column;
         justify-content: center;
         margin-top: 10px;
@@ -157,7 +157,7 @@ html {
     
     .recipeItem {
         height: auto;
-        display: flex;
+        display: block;
         width: 100px;
         position: relative;
         align-items: inherit;
@@ -165,14 +165,15 @@ html {
     
     .recipeImage {
         display: flex;
-        width: 100px;
-        height: 175px;
+        width: 80px;
+        height: 145px;
         object-fit: cover;
     }
         
     
     #leftRecipe, #middleRecipe, #rightRecipe {
         display: block;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
     }
