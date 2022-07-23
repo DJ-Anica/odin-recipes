@@ -49,33 +49,42 @@ html {
 .recipeContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 50px;
-    gap: 10px;
+    gap: 110px;
     padding: 5px;
 }
 
 
-.recipeItem, .recipeImage, .frame {
+.recipeItem {
     height: auto;
     display: flex;
-    width: 250px;
-    position: relative;
+    width: 200px;
+    position:relative;
     align-items: inherit;
+}
+
+.recipeImage {
+    display: flex;
+    width: 225px;
+    height: 350px;
     object-fit: cover;
+}
+    
+
+#leftRecipe, #middleRecipe, #rightRecipe {
+    display: block;
+    justify-content: center;
+    text-align: center;
 }
 
 
+
 .link {
-    display: block;
     width: 200px;
-    text-align: center;
     font-size: xx-large;
     font-weight: 500;
     position: absolute;
-    text-align: center;
-    font-size: 2.25em ;
-    font-weight: 500;
     color:rgb(198, 209, 41);
     top: 400px;
     left: 20px;
@@ -92,13 +101,4 @@ html {
     font-size: xx-large;
     font-weight: 200;
     color:rgb(198, 209, 41);
-}
-
-*/
-
-.frame {
-    position: absolute;
-    width: 325px;
-    display: block;
-    z-index: 2;
 }
