@@ -105,8 +105,7 @@ html {
 
 
     /* For mobile phones */
-
-@media only screen and (max-width: 770px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
     headerContainer {
         display: flex;
         flex-direction: row;
@@ -130,8 +129,8 @@ html {
         font-family:'MS Gothic', 'Franklin Gothic Medium', Arial, fantasy;
         font-style: oblique;
         text-shadow: 1.5px 1.5px #eeebeb;
-        font-size: 100px;
-        padding-top: 45px;
+        font-size: 65px;
+        padding-top: 5px;
         padding-left: 5px;
         padding-right: 5px;
         letter-spacing: 0.02vw;
@@ -146,7 +145,7 @@ html {
     
     
     .recipeContainer {
-        display:block;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         margin-top: 10px;
