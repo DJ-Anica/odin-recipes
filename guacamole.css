@@ -36,6 +36,11 @@ figure, p, ul, ol, h3 {
     text-align: center;
 }
 
+figure > img {
+    width: 495px;
+    height: auto;
+}
+
 figcaption {
     margin-top: 20px;
 }
