@@ -26,32 +26,45 @@ div {
 }
 
 #title-banner {
-    height: 10vw;
+    height: 8.25vw;
+    width: 680px;
     box-sizing: border-box;
     transform: scale(1.06);
-    filter: hue-rotate(0deg) saturate(0);
 }
 
 figure, p, ul, ol, h3 {
     text-align: center;
 }
 
+figure > img {
+    width: 495px;
+    height: auto;
+}
+
+figcaption, p, ul, ol, h3 {
+    color:rgb(198, 209, 41);
+}
+
 figcaption {
-    margin-top: 20px;
+    margin-top: 5px;
+    font-size: medium;
+}
+
+p {
+    margin-top: 25px;
+    font-size: 1.35vw;
 }
 
 figure, h3 {
     margin-top: 25px;
 }
 
-figcaption, p, ul, ol {
-    color:rgb(198, 209, 41);
+ul, ol {
     font-size: 1.15vw;
     font-weight: 300;
 }
 
 h3 {
-    color:rgb(198, 209, 41);
     font-size: 3.5vw;
     font-weight: 900;
     margin-bottom: 15px;
