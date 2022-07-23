@@ -111,7 +111,8 @@ html {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin-top: 5px;
+        text-align: center;
+        margin-top: 15px;
         margin-bottom: .5px;
         height: 15px;
     }
@@ -119,7 +120,7 @@ html {
     
     #titleBorderLeft, #titleBorderRight {
         box-sizing: border-box;
-        height: 50px;
+        height: 100px;
         transform: scale(1.06);
     }
     
@@ -129,7 +130,7 @@ html {
         font-family:'MS Gothic', 'Franklin Gothic Medium', Arial, fantasy;
         font-style: oblique;
         text-shadow: 1.5px 1.5px #eeebeb;
-        font-size: 40px;
+        font-size: 100px;
         padding-top: 45px;
         padding-left: 5px;
         padding-right: 5px;
@@ -145,8 +146,8 @@ html {
     
     
     .recipeContainer {
-        display: block;
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         margin-top: 10px;
         gap: 20px;
