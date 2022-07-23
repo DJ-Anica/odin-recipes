@@ -104,7 +104,14 @@ html {
 }
 
 
+
+
+
+
+
     /* For mobile phones */
+
+
 @media only screen and (min-width: 360px) and (max-width: 767px) {
     headerContainer {
         display: flex;
@@ -131,8 +138,6 @@ html {
         text-shadow: 1.5px 1.5px #eeebeb;
         font-size: 45px;
         padding-top: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
         letter-spacing: 0.02vw;
         text-transform: uppercase;
         color:rgb(34, 34, 33);
@@ -148,11 +153,14 @@ html {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         margin-top: 10px;
         gap: 20px;
         padding: 5px;
     }
     
+
+    /*
     
     .recipeItem {
         height: auto;
@@ -164,7 +172,7 @@ html {
     
     .recipeImage {
         display: flex;
-        width: 80px;
+        width: 180px;
         height: 145px;
         object-fit: cover;
     }
@@ -202,3 +210,4 @@ html {
         color:rgb(198, 209, 41);
     }
     }
+    */
