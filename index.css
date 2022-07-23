@@ -51,7 +51,7 @@ html {
     flex-direction: row;
     justify-content: center;
     margin-top: 50px;
-    gap: 110px;
+    gap: 220px;
     padding: 5px;
 }
 
@@ -60,14 +60,14 @@ html {
     height: auto;
     display: flex;
     width: 200px;
-    position:relative;
+    position: relative;
     align-items: inherit;
 }
 
 .recipeImage {
     display: flex;
-    width: 225px;
-    height: 350px;
+    width: 250px;
+    height: 375px;
     object-fit: cover;
 }
     
