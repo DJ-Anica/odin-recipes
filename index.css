@@ -96,20 +96,6 @@ html {
     left: 20px;
 }
 
-
-
-.description  {
-    position: absolute;
-    display:grid;
-    justify-content: space-evenly;
-    font-size: medium;
-    display: flex;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: 200;
-    color:rgb(198, 209, 41);
-}
-
 .description {
     position: absolute;
     justify-content: center;
@@ -122,12 +108,10 @@ html {
 
 
 
-
-
     /* For mobile phones */
 
 
-@media only screen and (min-width: 330px) and (max-width: 767px) {
+@media only screen and (min-width: 300px) and (max-width: 767px) {
 
     .headerContainer {
         display: flex;
@@ -148,17 +132,19 @@ html {
     #headerTitle {
         position: relative;
         text-align: center;
-        font-family:'MS Gothic', 'Franklin Gothic Medium', Arial, fantasy;
+        font-family: 'MS Gothic', 'Franklin Gothic Medium', Arial, fantasy;
         font-style: oblique;
         text-shadow: 1.5px 1.5px #eeebeb;
-        font-size: 45px;
+        font-size: 31px;
+        font-weight: 900;
         padding-top: 40px;
         padding-left: 0px;
         padding-right: 0px;
         letter-spacing: 0.02vw;
         text-transform: uppercase;
-        color:rgb(34, 34, 33);
+        color: rgb(34, 34, 33);
         opacity: .8;
+        width: 190px;
     }
     
     #titleBorderLeft {
