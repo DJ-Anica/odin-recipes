@@ -127,7 +127,7 @@ html {
     /* For mobile phones */
 
 
-@media only screen and (min-width: 340px) and (max-width: 767px) {
+@media only screen and (min-width: 330px) and (max-width: 767px) {
 
     .headerContainer {
         display: flex;
@@ -196,55 +196,3 @@ html {
         margin-top: 25px;
     }
 }
-
-    /*
-    
-    .recipeItem {
-        height: auto;
-        display: flex;
-        width: 100px;
-        position: relative;
-        align-items: inherit;
-    }
-    
-    .recipeImage {
-        display: flex;
-        width: 180px;
-        height: 145px;
-        object-fit: cover;
-    }
-        
-    
-    #leftRecipe, #middleRecipe, #rightRecipe {
-        display: block;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    
-    
-    
-    .link {
-        width: 100px;
-        font-size: large;
-        font-weight: 300;
-        position: absolute;
-        color:rgb(198, 209, 41);
-        top: 150px;
-        left: 20px;
-    }
-    
-    
-    .description  {
-        position: absolute;
-        display:grid;
-        justify-content: space-evenly;
-        font-size: medium;
-        display: flex;
-        text-align: center;
-        font-size: large;
-        font-weight: 200;
-        color:rgb(198, 209, 41);
-    }
-    }
-    */
