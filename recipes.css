@@ -80,6 +80,13 @@ html {
     border-radius: 10px;
 }
 
+
+.recipe-image:hover {
+    filter: brightness(110%); 
+    box-shadow: 15px 15px 15px 15px rgba(0.7, 0.7, 0.7, 0.7);
+}
+
+
 .link {
     font-size: xx-large;
     font-weight: 500;
