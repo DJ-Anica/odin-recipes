@@ -1,0 +1,225 @@
+html {
+    background: linear-gradient(180deg, rgb(198, 209, 41), rgb(66, 59, 46));
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    margin: .15vw 0 50px;
+    min-height: 205px;
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+}
+
+#title-border-left, #title-border-right {
+    height: 220px;
+    object-fit: cover;
+    box-shadow: 20px 10px 15px rgb(0, 0, 0);
+    border-radius: 10px 10px 100px;
+    background: transparent;
+}
+
+#title-border-left {
+    transform: scaleX(-1);
+}
+
+#header-title {
+    text-align: center;
+    font-family: 'MS Gothic', 'Franklin Gothic Medium', Arial, fantasy;
+    font-style: oblique;
+    text-shadow: 1.5px 1.5px #eeebeb;
+    font-size: 60px;
+    letter-spacing: 0.02vw;
+    text-transform: uppercase;
+}
+
+#header-title a {
+    color: rgb(34, 34, 33);
+    text-decoration: none;
+    opacity: .8;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#header-title a:hover {
+    color: rgb(150, 150, 150);
+    transform: scale(1.1);
+}
+
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    gap: 8vw;
+    margin: 50px 0;
+}
+
+.recipe-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    text-align: center;
+}
+
+.recipe-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 20px 10px 15px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.link {
+    font-size: xx-large;
+    font-weight: 500;
+    color: rgb(198, 209, 41);
+    margin-top: 25px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(150, 150, 150);
+    transform: scale(1.1);
+    text-decoration:underline;
+}
+
+.description {
+    font-size: large;
+    font-weight: 200;
+    color: rgb(198, 209, 41);
+    margin-top: 5px;
+}
+
+
+
+/* RECIPE PAGE CSS */
+
+/* Recipe Banner Styles */
+.recipe-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.recipe-banner h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: rgb(34, 34, 33);
+    text-shadow: 1px 1px #eeebeb;
+}
+
+.recipe-banner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+#title-banner {
+    height: 8.25vw;
+    width: 680px;
+    box-sizing: border-box;
+    transform: scale(1.06);
+}
+
+figure, p, ul, ol, h3 {
+    text-align: center;
+}
+
+figure > img {
+    width: 425px;
+    height: 525px;
+    object-fit: cover;
+}
+
+figcaption, p, ul, ol, h3 {
+    color:rgb(198, 209, 41);
+}
+
+figcaption {
+    margin-top: 15px;
+    font-size: medium;
+}
+
+p {
+    font-size: 1.35vw;
+}
+
+figure, h3, p {
+    margin-top: 5px;
+}
+
+ul, ol {
+    font-size: 1.15vw;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 3.5vw;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    flex-direction: column;
+    list-style-position: inside;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    width: fit-content;
+}
+
+ol {
+    margin-bottom: 50px;
+    width: fit-content;
+}
+
+
+
+/* MEDIA  QUERY */
+
+@media only screen and (max-width: 767px) {
+
+    #header-title {
+        text-align: center;
+        font-family: 'MS Gothic', 'Franklin Gothic Medium', Arial, fantasy;
+        font-style: oblique;
+        text-shadow: 1.5px 1.5px #eeebeb;
+        font-size: 55px;
+    }
+
+    .link:hover {
+        color: rgb(198, 209, 41);
+        transform: scale(1.2);
+    }
+
+
+    .recipe-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 25px;
+    }
+    
+}
